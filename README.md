@@ -4,6 +4,8 @@ A dark-themed **Retrieval-Augmented Generation (RAG)** application that allows u
 
 The application processes the uploaded document, splits it into chunks, converts the chunks into embeddings using a local Hugging Face embedding model, stores them in Chroma, retrieves relevant chunks using MMR, and uses a Groq-hosted LLM to generate the final answer.
 
+Deployed using Streamlit: https://docurag-pdfuploader.streamlit.app/
+
 ---
 
 ## 🛠️ Tech Stack
