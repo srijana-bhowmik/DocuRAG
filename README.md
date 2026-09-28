@@ -75,21 +75,23 @@ Windows
 ``` 
 
 ### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
-🔑 Environment Variables
+``` 
+🔑 Environment Variables 
 
 Create a .env file in the project root:
-
+```bash
 GROQ_API_KEY=your_groq_api_key
-
-The .env file is intentionally excluded from GitHub.
+```  
 
 ### ▶️ Run the Application
 
 Start the Streamlit application with:
-
+```bash
 streamlit run UImain.py
-
+``` 
 Then open the local Streamlit URL shown in your terminal.
 
 ----
