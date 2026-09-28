@@ -18,6 +18,8 @@ Chroma — vector database
 Groq — LLM inference
 PyPDF — PDF document loading
 
+```text
+
 DocuRAG/
 │
 ├── UImain.py          # Streamlit user interface
@@ -28,6 +30,7 @@ DocuRAG/
 ├── .env               # API keys (not committed)
 ├── main.py            # Local development file (not committed)
 └── chromaDB/          # Local vector database (not committed)
+```
 
 --- 
 
@@ -49,20 +52,28 @@ DocuRAG/
 ##  🚀 Installation
 
 ### 1. Clone the repository
+
+```bash
 git clone <YOUR_GITHUB_REPOSITORY_URL>
 cd DocuRAG
+``` 
 ### 2. Create a virtual environment
+```bash
 python -m venv .venv
+``` 
 
 Activate it:
 
 macOS / Linux
-
+```bash
 source .venv/bin/activate
+``` 
 
 Windows
-
+```bash
 .venv\Scripts\activate
+``` 
+
 ### 3. Install dependencies
 pip install -r requirements.txt
 🔑 Environment Variables
