@@ -26,7 +26,7 @@ DocuRAG/
 ├── rag.py             # RAG-related functionality
 ├── requirements.txt   # Python dependencies
 ├── README.md          # Project documentation
-│
+├── .gitignore
 ├── .env               # API keys (not committed)
 ├── main.py            # Local development file (not committed)
 └── chromaDB/          # Local vector database (not committed)
